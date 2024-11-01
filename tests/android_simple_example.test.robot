@@ -34,8 +34,8 @@ Login in app if present
     ...    ELSE    Log    Login is not necessary
 
 Login in app
-    Input Text   //(//android.webkit.WebView[@text="DialogQA"]//android.widget.EditText)[1]    777222 
-    Input Text   //(//android.webkit.WebView[@text="DialogQA"]//android.widget.EditText)[2]    critical 
+    Input Text   //(//android.webkit.WebView[@text="DialogQA"]//android.widget.EditText)[1]    {{username}} 
+    Input Text   //(//android.webkit.WebView[@text="DialogQA"]//android.widget.EditText)[2]    {{passwaord}} 
     Click Element    //android.widget.Button[@text="Entrar"]
 
 Accept notifications if present
