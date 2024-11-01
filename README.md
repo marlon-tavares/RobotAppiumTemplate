@@ -1,4 +1,4 @@
-# template-robotappium
+# template-robotframework-appium
 
 ## Pré Requisitos
   - Appium
